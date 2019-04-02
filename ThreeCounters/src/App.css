@@ -1,0 +1,59 @@
+
+.App {
+  text-align: center;
+  width:40%;
+  margin: auto;
+  border: 1px solid rgb(0, 195, 255);
+  padding:20px;
+  
+    background-color: rgb(0, 195, 255);
+}
+
+
+
+h1
+{
+  color: rgb(0, 0, 0);
+}
+
+.counter span
+{
+  padding: 18px 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.counter button
+{
+  padding: 15px 50px;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(36, 36, 36);
+  border: 2px solid rgb(36, 36, 36);
+}
+
+.counter button:hover
+{
+  cursor: pointer;
+}
+
+div
+{
+  margin-top: 50px;
+}
+
+.counterAll button
+{
+  padding: 10px 30px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(28, 48, 9);
+  border: 2px solid rgb(28, 48, 9);
+  margin-left: 15px;
+}
+
+.counterAll button:hover
+{
+  cursor: pointer;
+}
