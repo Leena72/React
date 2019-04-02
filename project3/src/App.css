@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  text-align: center;
+  background: url("./component/food.jpg");
+  background-size: cover;
+  background-color: whitesmoke;
+  height: fit-content 100vh;
+  color: #f0f8ff;
+
+}
+
+.menu{
+  width: 40%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vh;
+  
+}
+
+.list-div {
+  text-align: center;
+  background-color: rgb(182, 182, 182);
+  opacity :0.9;
+  border-radius: 5px;
+  
+  padding: 50px;
+}
+
+.list-div p{
+  font-size: 40px;z-index: 2px;
+  color: #092c41;
+  font-weight: bold;
+}
+
+.list-div ul{
+  list-style: none;z-index: 2px;
+}
+
+.dish-name{
+margin: 20px;
+color: #fff;
+background: #0287da;
+padding: 20px;z-index: 2px;
+border: 2px solid #0287da;
+border-radius: 5px;
+}
+
+.btn{
+ color: white;
+ background-color: #092c41;
+ padding: 10px 60px;
+ border: 2px solid #092c41;z-index: 2px;
+ border-radius: 5px;
+ font-size: 20px;
+ font-weight: bold;
+}
