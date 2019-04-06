@@ -1,0 +1,60 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #FFEA64;
+}
+
+.main
+{
+  text-align: center;
+}
+
+.ToDoListButton
+{
+    padding: 13px 50px 13px;
+    border: 1px solid rgba(0, 0, 0, 0.945);
+    background: #d6151579;
+    border-radius: 0 50px 50px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.ToDoListButton:hover
+{
+    background: #683F12;
+    cursor: pointer;
+}
+
+input[type="text"]
+{
+    border: 1px solid #000;
+    width: 50%;
+    padding: 13px 20px;
+    border-radius: 50px 0 0 50px;
+    background: #FFC776;
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type="text"]:focus
+{
+    border: 1px solid #8C4900;
+    background: #F4D2AD;
+}
+
+
+::placeholder
+{
+    font-size: 16px;
+}
+
+form
+{
+    margin-top: 50px;
+}

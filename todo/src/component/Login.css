@@ -1,0 +1,65 @@
+.Login *
+{
+    margin: 0;
+}
+
+.Login
+{
+    background: #4495F9;
+    height: 543px;
+}
+
+.Login form
+{
+    text-align:center;
+}
+
+.Login input
+{
+    width: 250px;
+    padding: 10px 0;    
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.Login input:focus
+{
+    background: #D8E3F3;
+    border: 2px solid red;
+}
+
+.Login input[type="text"]
+{
+    margin-top: 50px;
+}
+
+.Login input[type="password"]
+{
+    margin-top: 10px;
+}
+
+::placeholder
+{
+    text-align: center;
+    font-size: 17px;
+}
+
+.Login button
+{
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 15px 0px;
+    width: 19%;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+.Login button:hover
+{
+    background: #818181;
+    cursor: pointer;
+}

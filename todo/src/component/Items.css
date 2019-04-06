@@ -1,0 +1,47 @@
+h2
+{
+   display: block;
+   background-color: rgba(27, 25, 25, 0.5);
+   border-radius: 50px;
+   margin: 20px 240px;
+}
+
+h2:hover
+{
+   background-color: rgba(131, 119, 119, 0.5);
+}
+
+.Items-btn
+{
+    width: 63%;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #000;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #BD7F3D;
+    font-size: 16px;
+}
+
+.Items-btn:hover
+{
+   cursor: pointer;
+   background: #683F12;
+}
+
+.delete-btn
+{
+   float: right;
+   width: 20.5%;
+   padding: 5px 0;
+   border-radius: 0 20px 20px 0;
+   background: rgba(0, 0, 0, 0.37);
+   border : 1px solid #000;
+   color: #fff;
+}
+
+.delete-btn:hover
+{
+   cursor: pointer;
+}
