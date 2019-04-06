@@ -1,0 +1,66 @@
+*
+{
+    color: black;
+}
+
+
+.mynav img
+{
+  height: 40px;
+  margin-top: -20px;
+}
+
+.far
+{
+    padding-left: 37px;
+    padding-top: 20px;
+}
+
+.fas
+{
+    padding-left: 37px;
+    padding-top: 20px;
+}
+
+.fa-search
+{
+    position: relative;
+    left: 5%;
+}
+
+.mr-sm-2
+{
+    width: 57% !important;
+    padding: 0 50px !important;
+    margin-top: 20px;
+    background: #F3F2F2 !important;
+}
+
+.mr-auto
+{
+    width: 50%;
+    margin-top: -20px;
+    font-weight: bold ;
+    color: rgb(0, 0, 0);
+}
+
+.mynav
+{
+   margin: 0 30px;
+   color: rgb(0, 0, 0);
+}
+
+.nav-icons-text
+{
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-icons i
+{
+   color:  #000;
+   
+}
