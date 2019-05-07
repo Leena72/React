@@ -1,0 +1,349 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.formwrapper{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+//------------------------------------HEADER----------------------------
+
+
+header{
+    background: #F8F9FA;
+    .logo-image{
+        height: 33px;
+        width: 118px;
+    }
+    .search-icon{
+        background: rgb(204, 202, 202);
+        border-radius: 20px;
+        padding: 8px 12px;
+        margin-right: 20px;
+        color: #fff;
+    }
+    .fa-user-circle{
+        font-size: 40px;
+        line-height: 1.2;
+        color: rgb(204, 202, 202);
+    }
+    padding: 10px;
+    box-shadow: 0px 0px 7px 5px #c4c4c4;
+}
+
+//---------------------------------FOOTER----------------------------
+
+.footer
+{   
+
+    padding: 20px 100px;
+    margin-top: 50px;
+    color: rgb(207, 207, 207);
+    background-color: rgb(151, 151, 151);
+}
+
+
+
+
+//------------------------------------HEADING----------------------------
+
+
+h2{
+    border-bottom: 1px solid rgb(173, 170, 170);
+    padding-bottom: 10px;
+    font-weight: 350;
+}
+
+
+//--------------------NEW CUSTOMER CAR COMPONENT---------------------------
+
+.newCustomer{
+  // text-align: center;
+  // width: 30%;
+  // margin: 0 auto;
+  background-color: rgb(238, 238, 238);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+//----------------------PROGRESS BAR--------------------------
+
+.progress-bar {
+  max-width: 50%;
+  margin: 2% auto;
+}
+
+//-----------------------DEMO--------------------------
+.demo{
+  background-color:  rgb(238, 238, 238);
+  max-width: 600px;
+  width: 50%;
+  padding: 10px 100px;
+  color:gray;
+  border-radius: 3px;
+  margin: 30px auto;
+
+ 
+}
+
+.demo input[type=checkbox]
+{
+  margin-right: 10px;
+}
+
+//------------------------------------BUTTONS---------------------------
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin : auto;
+    padding: 30px 0;
+
+    .nextbtn
+    {
+        background-color:#48b7eb;
+        color:white;
+        border:none;
+        border-radius:3px;
+        padding:10px 30px;
+    }
+    .cancel
+    {
+        color:white;
+        background-color:rgb(182, 182, 182);
+        border-radius:3px;
+        padding:10px 30px;
+        border:none;
+    }
+}
+
+//------------------------------------FORM1----------------------------
+
+                    //----COMPANY DETAIL----
+
+.companyDetails{
+  padding-bottom: 70px;
+  .form-group
+  {
+    padding:10px 0;
+  }
+    label{
+        width: 50%;
+    }
+    input{
+        width: 100%;
+        padding:10px 0;
+        border-radius: 3px;
+        box-shadow: none ;
+
+        border: 1px solid  lightgray ;
+    
+    
+    }
+}
+                    //----ACCOUNT DETAIL----
+
+.account-info{
+ padding-bottom: 70px;
+ .form-group
+  {
+    padding:10px 0;
+  }
+  .selecttech
+  {
+    padding:25px 0;
+  }
+
+  .date input[type=date]
+  {
+  padding:10px 0;
+  border-radius: 3px;
+  box-shadow: none ;
+
+  border: 1px solid  lightgray ;
+
+  }
+}
+
+                    //----CONTACT DETAIL----
+
+.contact-info
+{
+  .form-group
+  {
+    padding:10px 0;
+  }
+  .form-row
+  {
+    
+  }
+}
+
+//--------------------------------------############----------------------------------------
+
+
+.assignProduct
+{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.enable
+
+{ 
+    padding-bottom:20px;
+    .category
+    {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .enablecheck
+    {
+        padding-left:30px;
+        font-size: 18px;
+       
+    }
+
+    .middle
+    {
+      padding:20px 40px;
+      font-size: 18px;
+    
+    }
+    
+}
+
+
+.driverManagement
+
+{ border-top: 1px solid gray;
+    
+    padding-top:20px;
+    .category
+    {
+        font-size: 25px;
+        font-weight: 500;
+    }
+  
+
+    .enablecheck
+    {
+        padding-left:30px;
+        
+    }
+
+    
+}
+.fixedpayment
+{
+  padding-top:20px;
+}
+
+
+.paymentMethod
+
+{ border-top: 1px solid gray;
+    
+    padding:20px 0;
+    
+    .category
+    {
+        font-size: 25px;
+        font-weight: 500;
+    }
+  
+
+    .enablecheck
+    {
+        padding-left:30px;
+    }
+}
+
+
+//--------------------------------------############----------------------------------------
+
+
+
+
+.setAdmins{
+    margin-top: 50px;
+    .wrapper{
+      border: 1px solid gray;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      .heading{
+        .list{
+          display: flex;
+          justify-content: space-between;
+          padding:20px 25px 0;
+          li{
+            list-style: none;
+            &:nth-child(2){
+              padding-left: 9px;
+            }
+            &:nth-child(3){
+              padding-left: 18px;
+            }
+            &:last-child{
+              width: 5%;
+            }
+          }
+        }
+      }
+      .input{
+        border-top: 1px solid rgb(163, 163, 163);
+        .list{
+          display: flex;
+          justify-content: space-between;
+          padding: 24px 10px;
+          li{
+            list-style: none;
+            width:90%;
+            input{
+              padding: 10px;
+              width: 80%;
+            }
+            .dateInput{
+              padding: 9px 12px;
+            }
+            &:nth-child(4){
+              padding-right: 15px;
+            }
+            &:last-child{
+              width: 4%;
+              line-height: 3;
+            }
+            input[type=radio] {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+      .addMore{
+        border-top: 1px solid rgb(163, 163, 163);
+        padding: 20px 20px;
+        .addBtn{
+          border-radius: 50%;
+          background: transparent;
+          border: 1px solid rgb(163, 163, 163);
+          &:hover{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
