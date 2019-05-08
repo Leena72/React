@@ -1,0 +1,430 @@
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formwrapper{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.formcontent
+{
+  max-width: 400px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.progress-bar {
+
+  max-width: 47%;
+  margin: 2% auto;
+}
+
+//-----------------------------HEADER------------------------
+
+header{
+  background: #F8F9FA;
+  .logo-image{
+    height: 33px;
+    width: 118px;
+  }
+  .search-icon{
+    background: rgb(204, 202, 202);
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin-right: 20px;
+    color: #fff;
+  }
+  .fa-user-circle{
+    font-size: 40px;
+    line-height: 1.2;
+    color: rgb(204, 202, 202);
+  }
+  padding: 10px;
+  box-shadow: 0px 0px 7px 5px #c4c4c4;
+}
+
+//---------------------------------FOOTER----------------------------
+
+.footer
+{   
+
+    padding: 20px 100px;
+ 
+    color: rgb(207, 207, 207);
+    background-color: rgb(151, 151, 151);
+}
+
+
+
+//------------------------------------HEADING----------------------------
+
+
+h2{
+  border-bottom: 1px solid rgb(173, 170, 170);
+  padding-bottom: 10px;
+  font-weight: 350;
+}
+
+
+
+//------------------------------------BUTTONS---------------------------
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin : auto;
+  padding: 30px 0;
+  cursor: pointer;
+
+  .nextbtn
+  {
+      background-color:#48b7eb;
+      color:white;
+      border:none;
+      border-radius:3px;
+      padding:10px 30px;
+  }
+  .cancel
+  {
+      color:white;
+      background-color:rgb(182, 182, 182);
+      border-radius:3px;
+      padding:10px 30px;
+      border:none;
+  }
+}
+
+//------------------------------NEW CUSTOMER---------------------
+
+.main-heading{
+  text-align: center;
+  background: rgba(153, 153, 153, 0.18);
+  font-size: 24px;
+  margin-bottom: -28px;
+  padding: 30px;
+}
+
+.container-fluid{
+  background: #F8F9FA;
+}
+
+//---------------------------DEMO COMPANY--------------
+
+.demo{
+  background-color:  rgb(238, 238, 238);
+  max-width: 600px;
+  width: 46%;
+  padding: 10px 100px;
+  // cursor: pointer;
+  color:gray;
+  border-radius: 3px;
+  margin: 80px auto 0;
+
+ 
+}
+
+.demo input[type=checkbox]
+{
+  margin-right: 10px;
+}
+
+
+
+
+
+//------------------------------------FORM1----------------------------
+
+                    //----COMPANY DETAIL----
+
+  .companyDetails{
+    padding-bottom: 40px;
+    .form-group
+    {
+      padding:10px 0;
+    }
+      label{
+          width: 50%;
+      }
+      input{
+          width: 100%;
+          padding:5px 0;
+          border-radius: 3px;
+          box-shadow: none ;
+  
+          border: 1px solid  lightgray ;
+      
+      
+      }
+  }
+                      //----ACCOUNT DETAIL----
+  
+  .account-info{
+    padding-bottom: 60px;
+    .form-group
+    {
+      padding:10px 0;
+    }
+    .selecttech
+    {
+      padding:25px 0;
+    }
+  
+    .date input[type=date]
+    {
+    padding:5px 0;
+    border-radius: 3px;
+    box-shadow: none ;
+  
+    border: 1px solid  lightgray ;
+  
+    }
+  }
+  
+                      //----CONTACT DETAIL----
+  
+  .contact-info
+  {
+    .form-group
+    {
+      padding:10px 0;
+    }
+    .selecttech
+    {
+      padding:22px 0;
+    }
+    input{
+      width: 100%;
+      padding:5px 0;
+      border-radius: 3px;
+      box-shadow: none ;
+
+      border: 1px solid  lightgray ;
+  
+  
+  }
+  }
+  
+
+
+
+//--------------------------------FORM2-----------------------------
+
+  .assignProduct
+  {
+      max-width: 400px;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 40px;
+  }
+  
+  .enable
+  
+  { 
+      padding-bottom:20px;
+      .category
+      {
+          font-size: 25px;
+          font-weight: 500;
+      }
+  
+      .enablecheck
+      {
+          padding-left:30px;
+          font-size: 18px;
+         
+      }
+  
+      .middle
+      {
+        padding:20px 40px;
+        font-size: 18px;
+      
+      }
+      
+  }
+  
+  
+  .driverManagement
+  
+  { border-top: 1px solid gray;
+      
+      padding-top:20px;
+      .category
+      {
+          font-size: 25px;
+          font-weight: 500;
+      }
+    
+  
+      .enablecheck
+      {
+          padding-left:30px;
+          
+      }
+  
+      
+  }
+  .fixedpayment
+  {
+    padding-top:20px;
+  }
+  
+  
+  .paymentMethod
+  
+  { border-top: 1px solid gray;
+      
+      padding:20px 0;
+      
+      .category
+      {
+          font-size: 25px;
+          font-weight: 500;
+      }
+    
+  
+      .enablecheck
+      {
+          padding-left:30px;
+      }
+  }
+  
+
+
+//-------------------------------FORM2----------------------------------------------
+
+
+// .assignProducts{
+//   // @extend %form;
+//   border-bottom: 1px solid rgb(173, 170, 170);
+//   padding-left: 50px;
+//   .fixedRate{
+//     padding-left: 24px;
+//     padding-bottom: 30px;
+//     .selectRequired{
+//       font-size: 14px;
+//       color: rgb(141, 138, 138);
+//     }
+//     .form-check{
+//       margin-bottom: 10px;
+//       .form-check-label{
+//         color: #000;
+//       }
+
+
+
+//     }
+
+
+
+//     .requiredCheck{
+//       padding-left: 23px;
+//       font-size: 12px;
+//       color: rgb(141, 138, 138);
+//     }
+//     .taxText{
+//       font-size: 14px;
+//       color: rgb(122, 118, 118);
+//       padding-top: 20px;
+//     }
+//     .tax{
+//       input[type=checkbox], input[type=radio] {
+//         width: 20px;
+//         height: 20px;
+//       }
+//       .tax-label{
+//         line-height: 1.8;
+//         padding-left: 10px;
+//       }
+//     }
+//     .incomeTax{
+//       padding: 0;
+//       max-width: 300px;
+//       width: 100%;
+//     }
+//   }
+// }
+//           //-------------payment------------
+// .paymentMethod{
+//   padding-top: 25px;
+//   padding-bottom: 20px;
+//   .paymentContent{
+//     font-style: italic;
+//     font-size: 14px;
+//     padding-left: 10px;
+//   }
+//   input[type=checkbox], input[type=radio] {
+//     width: 20px;
+//     height: 20px;
+//   }
+//   .payment-label{
+//     line-height: 1.8;
+//     padding-left: 10px;
+//   }
+//   .funds{
+//     padding-left: 20px;
+//     .payment-label{
+//       width: 50%;
+//     }
+//   }
+//   .concur{
+//     .payment-label{
+//       padding-bottom: 8px;
+//     }
+//   }
+//   .payFreq{
+//     padding-top: 35px;
+//   }
+//   .payFreqLabel{
+//     padding-left: 50px;
+//   }
+// }
+//           //-------------driver management------------
+// .driverManagement{
+//   padding-top: 25px;
+//   padding-bottom: 20px;
+//   border-top: 1px solid rgb(173, 170, 170);
+//   input[type=radio] {
+//     width: 20px;
+//     height: 20px;
+//   }
+//   .driverManageOptions{
+//     padding-left: 70px;
+//     padding-top: 10px;
+//     .payment-label{
+//       line-height: 1.8;
+//       padding-left: 10px;
+//     }
+//   }
+// }
+
+//           //-------------fixed pay------------
+
+// .fixedPaySchedule{
+//   padding-top: 25px;
+//   padding-bottom: 20px;
+//   input[type=radio] {
+//     width: 20px;
+//     height: 20px;
+//   }
+//   .fpContent{
+//     font-style: italic;
+//     font-size: 14px;
+//     padding-left: 10px;
+//   }
+//   .fixedPayOptions{
+//     padding-left: 70px;
+//     padding-top: 10px;
+//     .payment-label{
+//       line-height: 1.8;
+//       padding-left: 10px;
+//     }
+//   }
+// }

@@ -1,0 +1,167 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+.formwrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px; }
+
+.formcontent {
+  max-width: 400px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px; }
+
+.progress-bar {
+  max-width: 47%;
+  margin: 2% auto; }
+
+header {
+  background: #F8F9FA;
+  padding: 10px;
+  box-shadow: 0px 0px 7px 5px #c4c4c4; }
+  header .logo-image {
+    height: 33px;
+    width: 118px; }
+  header .search-icon {
+    background: #cccaca;
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin-right: 20px;
+    color: #fff; }
+  header .fa-user-circle {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #cccaca; }
+
+.footer {
+  padding: 20px 100px;
+  color: #cfcfcf;
+  background-color: #979797; }
+
+h2 {
+  border-bottom: 1px solid #adaaaa;
+  padding-bottom: 10px;
+  font-weight: 350; }
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 0;
+  cursor: pointer; }
+  .buttons .nextbtn {
+    background-color: #48b7eb;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px; }
+  .buttons .cancel {
+    color: white;
+    background-color: #b6b6b6;
+    border-radius: 3px;
+    padding: 10px 30px;
+    border: none; }
+
+.main-heading {
+  text-align: center;
+  background: rgba(153, 153, 153, 0.18);
+  font-size: 24px;
+  margin-bottom: -28px;
+  padding: 30px; }
+
+.container-fluid {
+  background: #F8F9FA; }
+
+.demo {
+  background-color: #eeeeee;
+  max-width: 600px;
+  width: 46%;
+  padding: 10px 100px;
+  color: gray;
+  border-radius: 3px;
+  margin: 80px auto 0; }
+
+.demo input[type=checkbox] {
+  margin-right: 10px; }
+
+.companyDetails {
+  padding-bottom: 40px; }
+  .companyDetails .form-group {
+    padding: 10px 0; }
+  .companyDetails label {
+    width: 50%; }
+  .companyDetails input {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid lightgray; }
+
+.account-info {
+  padding-bottom: 60px; }
+  .account-info .form-group {
+    padding: 10px 0; }
+  .account-info .selecttech {
+    padding: 25px 0; }
+  .account-info .date input[type=date] {
+    padding: 5px 0;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid lightgray; }
+
+.contact-info .form-group {
+  padding: 10px 0; }
+.contact-info .selecttech {
+  padding: 22px 0; }
+.contact-info input {
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid lightgray; }
+
+.assignProduct {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px; }
+
+.enable {
+  padding-bottom: 20px; }
+  .enable .category {
+    font-size: 25px;
+    font-weight: 500; }
+  .enable .enablecheck {
+    padding-left: 30px;
+    font-size: 18px; }
+  .enable .middle {
+    padding: 20px 40px;
+    font-size: 18px; }
+
+.driverManagement {
+  border-top: 1px solid gray;
+  padding-top: 20px; }
+  .driverManagement .category {
+    font-size: 25px;
+    font-weight: 500; }
+  .driverManagement .enablecheck {
+    padding-left: 30px; }
+
+.fixedpayment {
+  padding-top: 20px; }
+
+.paymentMethod {
+  border-top: 1px solid gray;
+  padding: 20px 0; }
+  .paymentMethod .category {
+    font-size: 25px;
+    font-weight: 500; }
+  .paymentMethod .enablecheck {
+    padding-left: 30px; }
+
+/*# sourceMappingURL=mainstyle.css.map */
