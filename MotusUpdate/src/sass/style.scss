@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+}
+
+@import './colors_mixins';
+@import './../components/Header/header';
+@import './../components/AddCompanyDetails/form1';
+@import './../components/AssignProducts/form2';
+
+
+h2 {
+  border-bottom: 1px solid rgb(173, 170, 170);
+  margin-top: 35px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.heading{
+  @include border-bottom-mixin();
+}
+
+.category {
+  font-weight: 400px;
+  font-size: 15px;
+  display: block;
+}
+
+.button-div {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newCustomer{
+  padding: 20px 0 35px 0;
+  background-color: #F3F4F7;
+  font-size: 28px;
+  background-color: rgb(190, 193, 194);
+  opacity: .8px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  font-weight: 400px;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.progress-bar{
+  width: 50%;
+  margin: 0 auto 40px auto;
+}
+.next-btn {
+  float: right;
+  background-color: $motusblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px 12px;
+}
+
+.back-btn {
+  float: right;
+  background-color: rgb(190, 193, 194);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px 12px;
+}
+
+.fa-arrow-left{
+  margin-right: 10px;
+}
+
+.fa-arrow-right{
+  margin-left: 10px;
+}
+
+td{
+  text-align: center;
+}
+@import './../components/SetupAdmins/setupadmin';
+@import './../components/Footer/footer';
+
+// input{
+//   &:focus{
+//     border: 1px solid grey;
+//   }
+// }

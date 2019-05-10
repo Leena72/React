@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  cursor: pointer; }
+
+header {
+  padding: 10px 40px;
+  box-shadow: 0px 0px 7px 5px #b3b5b9;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between; }
+  header .logo {
+    height: 35px;
+    width: 120px; }
+  header .logo-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  header .navBar {
+    margin-left: 40px; }
+    header .navBar li {
+      margin-top: 20px;
+      list-style: none;
+      display: inline-block;
+      margin-right: 20px; }
+    header .navBar a {
+      color: #b3b5b9;
+      text-decoration: none; }
+      header .navBar a:hover {
+        color: #898b8b; }
+  header .fa-user-circle {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #cccaca;
+    margin-left: 20px; }
+
+.demo-checkbox {
+  max-width: 50%;
+  margin: 100px auto 30px auto;
+  text-align: center;
+  background-color: #f3f4f7; }
+  .demo-checkbox input,
+  .demo-checkbox label {
+    margin-top: 8px;
+    color: gray; }
+  .demo-checkbox input[type="checkbox"] {
+    margin-right: 10px; }
+
+.form-width {
+  width: 40%;
+  margin: 0 auto; }
+
+.form-step1 {
+  margin: 0 auto;
+  text-align: left; }
+  .form-step1 input {
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    width: 100%; }
+    .form-step1 input:focus {
+      border: 2px solid #26acef;
+      border-radius: 3px; }
+  .form-step1 .account-section {
+    margin-top: 50px; }
+  .form-step1 .date-picker {
+    width: 40%; }
+  .form-step1 label {
+    font-weight: bold;
+    font-size: 16px; }
+  .form-step1 .select-option {
+    background-color: transparent;
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    width: 100%; }
+  .form-step1 .state-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start space-between; }
+    .form-step1 .state-div .form-elements {
+      margin-bottom: 0; }
+  .form-step1 .zipcode-div {
+    flex-grow: 2; }
+  .form-step1 .form-elements {
+    margin: 10px 0 30px 0; }
+    .form-step1 .form-elements label {
+      width: 50%; }
+  .form-step1 .companyInfo input {
+    width: 100%; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.checkbox-div {
+  display: block;
+  margin-bottom: 15px; }
+
+.checkbox-div .checkbox-custom {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer; }
+
+.checkbox-div .checkbox-custom-label {
+  position: relative;
+  cursor: pointer; }
+
+.checkbox-div .checkbox-custom-label:before {
+  content: '';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #b3b5b9;
+  border-radius: 3px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px; }
+
+.checkbox-div .checkbox-custom:checked + .checkbox-custom-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: 2px solid #26acef;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg); }
+
+.checkbox-custom:checked + .checkbox-custom {
+  border: 2px solid #26acef; }
+
+.form-step2 {
+  text-align: left;
+  margin-top: 100px; }
+  .form-step2 select {
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px; }
+    .form-step2 select:focus {
+      border: 2px solid #26acef;
+      border-radius: 3px; }
+
+.required-form {
+  margin-left: 70px;
+  margin-bottom: 20px; }
+
+.option-div {
+  margin-left: 70px; }
+
+h2 {
+  border-bottom: 1px solid #adaaaa;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  font-size: 20px;
+  padding-bottom: 10px; }
+
+.category {
+  font-weight: bold;
+  font-size: 16px;
+  display: block; }
+
+.button-div {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+.newCustomer {
+  padding: 20px 0 35px 0;
+  background-color: rgba(153, 153, 153, 0.18);
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -20px; }
+
+.progress-bar {
+  width: 50%;
+  margin: 0 auto 40px auto; }
+
+.next-btn {
+  float: right;
+  background-color: #26acef;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px 12px; }
+
+.back-btn {
+  float: right;
+  background-color: #bec1c2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px 12px; }
+
+.fa-arrow-left {
+  margin-right: 10px; }
+
+.fa-arrow-right {
+  margin-left: 10px; }
+
+.setupAdmins {
+  margin-top: 9%; }
+  .setupAdmins .table {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px #b3b5b9;
+    box-shadow: 0 0 5px 5px #f7f7f7; }
+  .setupAdmins thead {
+    border: none; }
+  .setupAdmins .list-heading th {
+    border: none; }
+  .setupAdmins .list input[type="text"] {
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px; }
+    .setupAdmins .list input[type="text"]:focus {
+      border: 2px solid #26acef;
+      border-radius: 3px; }
+  .setupAdmins .list input[type="date"] {
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px; }
+    .setupAdmins .list input[type="date"]:focus {
+      border: 2px solid #26acef;
+      border-radius: 3px; }
+  .setupAdmins .add-button {
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #b3b5b9;
+    color: #b3b5b9;
+    padding: 5px 10px;
+    outline: none; }
+    .setupAdmins .add-button:hover {
+      cursor: pointer; }
+  .setupAdmins .add-row {
+    text-align: left; }
+
+.footer-component {
+  padding: 40px 0 20px 0;
+  background-color: #707070;
+  font-size: 10px; }
+  .footer-component .footerText {
+    width: 90%;
+    padding-left: 60px;
+    font-size: 14px;
+    color: #f7f7f7;
+    opacity: 0.7; }
+
+/*# sourceMappingURL=style:css.map */

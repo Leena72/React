@@ -1,0 +1,32 @@
+@import "./../../sass/colors_mixins";
+// @import "./checkbox";
+
+.form-step2 {
+  text-align: left;
+  margin-top: 100px;
+
+  select {
+    @include input-box-style(10px);
+    background: transparent;
+    width: 100%;
+  }
+
+  .enabledProducts,
+  .paymentMethod {
+    @include border-bottom-mixin();
+    padding-bottom: 30px;
+  }
+}
+
+.selectRequired{
+  // margin-left: 70px;
+  color: $darkgray;
+}
+.required-form {
+  margin-left: 70px;
+  // margin-bottom: 20px;
+}
+
+.option-div {
+  margin-left: 70px;
+}

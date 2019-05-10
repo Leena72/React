@@ -1,0 +1,23 @@
+$white: #fff;
+$lightgray: #f7f7f7;
+$gray: #b3b5b9;
+$grayfooter: #707070;
+$darkgray: #898b8b;
+$motusblue: #26acef;
+
+@mixin input-box-style($padding){
+    border: 1px solid lightgray;
+    padding: $padding;
+    outline: none;
+    // width: 100%;
+    border-radius: 3px;
+    // &:focus{
+    //     border: 2px solid $motusblue;
+    //     border-radius: 3px;
+    // }
+}
+
+
+@mixin border-bottom-mixin(){
+    border-bottom: 1px solid lightgray;
+  }

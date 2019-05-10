@@ -1,0 +1,57 @@
+@import './../../sass/colors_mixins';
+
+.setupAdmins {
+  margin-top: 9%;
+  .table {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px $gray;
+    box-shadow: 0 0 5px 5px $lightgray;
+}
+
+thead{
+  border: none;
+}
+
+.list-heading {
+  th{
+    border: none;
+  }
+}
+.list {
+  input[type="text"] {
+    // padding: 10px;
+    // border: 1px solid $darkgray;
+    @include input-box-style(10px);
+  }
+
+  input[type="date"] {
+    // padding: 9px;
+    // border: 1px solid $darkgray;
+    @include input-box-style(10px);
+  }
+}
+.add-button {
+border-radius: 50%;
+background: transparent;
+border: 2px solid $gray;
+color: $gray;
+padding: 5px 10px;
+outline: none;
+// &:hover {
+//   cursor: pointer;
+// }
+
+&:disabled{
+  cursor: not-allowed;
+  border:2px solid $lightgray;
+  color: $lightgray;
+}
+}
+
+.add-row {
+text-align: left;
+}
+}
+

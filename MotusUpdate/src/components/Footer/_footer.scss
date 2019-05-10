@@ -1,0 +1,16 @@
+@import "./../../sass/colors_mixins.scss";
+
+.footer-component {
+  padding: 40px 0 20px 0;
+  background-color: $grayfooter;
+  font-size: 10px;
+
+.footerText {
+  width: 90%;
+  padding-left: 60px;
+  font-size: 14px;
+  color: $lightgray;
+  opacity: 0.7;
+}
+}
+
