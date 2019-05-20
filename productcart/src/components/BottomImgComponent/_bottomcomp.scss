@@ -1,0 +1,63 @@
+
+
+// .bottomComponent
+// {   
+    
+//     position: absolute;
+//     display: flex;
+//     padding: 0 8px;
+//     bottom: 9px;
+//     justify-content: space-around;
+
+// }
+
+
+.hover-container{
+//   width:50%;
+  display:flex;
+  justify-content: space-around;
+    bottom: 10px;
+left:12px;
+  position:absolute;
+
+
+  .Tshirtcolor 
+  {
+        list-style-type: none;
+         border-radius: 3px;
+        //  margin-right: 5px;
+         cursor: pointer;
+        li
+        {
+            display: inline;
+        }
+         
+         border: 1px solid #e5e5e5;
+     
+  }
+   .TshirtSize
+  {
+      border-radius: 3px;
+      text-align: center;
+      color: black;
+      background-color: #ffffff;
+      border: 1px solid #e5e5e5;
+    //   font-weight: 300;
+      cursor: pointer;
+    //   margin-right: 5px;
+  
+
+}
+.addToCart
+{   
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    background: #55bca8;
+    border: 0;
+    font-weight: 300;
+    padding: 3px;
+    cursor: pointer;
+}
+
+}
