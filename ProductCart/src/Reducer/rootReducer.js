@@ -1,6 +1,6 @@
 
 import { combineReducers } from 'redux';
-import { productColor, productDetails, buttonLabels, addedItems } from '../components/itemConfig';
+import { productColor, productDetails, buttonLabels, addedItems } from '../components/Config';
 import totalReducer from './total-reducer';
 
 const initState = {
@@ -43,15 +43,7 @@ const addToCart = (state = initState,action) => {
     switch(action.type){
 
         case "ADD_PRODUCT" : {
-        //     let tempState = {...state};
-        //     tempState.addedItems=[...tempState.addedItems, action.data];
-        //     //let tempData = action.data;
-        //    return {...state,addedItems:tempState.addedItems}
-
-
         let addedItem = state.addedItems.find(item=> item.id === action.data.id);
-
-        //check if the action id exists in the addedItems
 
         let existed_item= state.addedItems.find(item=> action.data.id === item.id);
         if(existed_item)
@@ -66,7 +58,7 @@ const addToCart = (state = initState,action) => {
             {
                 let addedItem = action.data;
                 addedItem.quantity = 1;
-                //calculating the total
+          
                 let newTotal = state.total + addedItem.price
 
                 return{
@@ -98,7 +90,7 @@ const addToCart = (state = initState,action) => {
         let itemToRemove= state.addedItems.find(item=> action.id === item.id)
         let new_items = state.addedItems.filter(item=> action.id !== item.id)
 
-        //calculating the total
+        
         let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity )
         console.log(itemToRemove)
         return{
@@ -107,7 +99,7 @@ const addToCart = (state = initState,action) => {
             total: newTotal
         }
     }
-    //INSIDE CART COMPONENT
+  
     case "ADD_QUANTITY":{
         let addedItem = state.addedItems.find(item=> item.id === action.data.id);
        if(addedItem.quantity <=10 ){
@@ -184,25 +176,6 @@ const addToCart = (state = initState,action) => {
 }
 
 
-// const addSize= (state = initState , action) => {
-//     switch (action.type) {
-//         case "ADD_SIZE": {
-//             let addedItem = state.addedItems.find(item=> item.id === action.data.id);
-//             let updatedItems = state.addedItems.map(item=>{
-//                 if(item.id===action.data.id){
-//                     return addedItem
-//                 }
-//                 return item;
-//             })
-//             return{
-//                 ...state,
-//                 addedItems:updatedItems,
-//             }
-//         }
-//     }
-
-
-// }
 
 
 const billingData = (state = [], action) => {
